@@ -10,6 +10,10 @@ body {
     background-color: #8EC5FC;
 background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
+.navbar-expand-lg{
+  background-color: #3EECAC;
+  background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%);
+}
  .bg-light{
     margin-left: -20px;
     margin-right: -16px;
@@ -54,12 +58,20 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
   }
   
 /*---------------------------------BANNER---------------------------------*/
+.row {
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+.card-img-top, .card-img-top2, .card-img-top3, .card-img-top4{
+ border-radius: 4%;
+ width: 100%;
+ height: 300px;
+object-fit: contain;
+}
 
-
-
-
-
-
+.col{
+  height: 480px;
+}
 
 footer {
     margin-top: auto;
@@ -67,3 +79,72 @@ footer {
     margin-right: -16px;
     margin-bottom: -16px !important;
 }
+.bg-dark{
+  background-color: #3EECAC;
+  background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%);
+}
+.text-white-50{
+  color:black !important;
+}
+.card-title{
+  text-align: center;
+}
+.card-body{
+  border:red !important;
+}
+.h-100 {
+  height: 100% !important;
+  background: transparent;
+}
+/*----------------------------BOTAO WHATSAPP----------------------------*/
+.cta-whatsapp{
+  text-align: center;
+  width:150px;
+  margin-top: 50px !important;
+  margin-left: 100px !important;
+	transition: all 0.3s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    bottom: 0;
+    display: block;
+    right: 0;
+    margin: 10px;
+    color: #fff;
+    background: #00e676;
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-weight: 500;
+    z-index: 99;
+    &:hover{
+    	transition: all 0.3s;
+    	opacity: 0.8
+    }
+}
+.floating {
+	animation-iteration-count:infinite;
+	animation-duration: 1.3s;
+	animation-name: floating-float, floating;
+	}
+	@keyframes floating {
+	 0% {
+	   -webkit-transform: translateY(-8px);
+	   transform: translateY(-8px);
+	 }
+	 50% {
+	   -webkit-transform: translateY(-4px);
+	   transform: translateY(-4px);
+	 }
+	 100% {
+	   -webkit-transform: translateY(-8px);
+	   transform: translateY(-8px);
+	 }
+	}
+	@keyframes floating-float {
+	 100% {
+	   -webkit-transform: translateY(-8px);
+	   transform: translateY(-8px);
+	 }
+}
+/*----------------------------BOTAO WHATSAPP----------------------------*/
+
+/*----------------------------RESPONSIVIDADE----------------------------*/
+/*----------------------------RESPONSIVIDADE----------------------------*/
